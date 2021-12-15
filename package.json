@@ -1,5 +1,6 @@
 {
   "name": "swc-traverse-in-ccfv3",
+  "homepage": "http://zzhmark.github.io/r3f-swc-viewer",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -17,12 +18,16 @@
     "three": "0.127.0",
     "zustand": "3.6.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
