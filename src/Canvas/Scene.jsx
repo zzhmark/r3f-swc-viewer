@@ -44,7 +44,7 @@ export default function Scene() {
   ]
   useEffect(() => {
     async function loadData(getSkeletons = false) {
-      const neurons = await Promise.all(swcFiles.map((filename) => loadSWC('/swc/' + filename)))
+      const neurons = await Promise.all(swcFiles.map((filename) => loadSWC(process.env.PUBLIC_URL + '/swc/' + filename)))
       setNeurons((store) => {
         store.splice(0)
         store.push(...neurons)

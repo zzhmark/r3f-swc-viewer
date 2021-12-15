@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
 
 function AnimatedBrain({ filename, style, ...rest }) {
-  const { nodes } = useGLTF('/obj/' + filename)
+  const { nodes } = useGLTF(process.env.PUBLIC_URL + '/obj/' + filename)
   const geo = Object.values(nodes)[0]['geometry'].clone(true).scale(-1, -1, -1).translate(6600, 4000, 5700)
   return (
     <animated.mesh position={style.opacity.to((o) => [0, o * 1000, 0])}>
