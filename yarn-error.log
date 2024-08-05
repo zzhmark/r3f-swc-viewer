@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\zzh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Miniconda3\condabin;C:\Users\zzh\Documents\GitHub\r3f-swc-viewer\node_modules\.bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2020b\runtime\win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.1\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\CUPTI\lib64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\ProgramData\Miniconda3;C:\ProgramData\Miniconda3\Scripts;C:\ProgramData\Miniconda3\Library\bin;C:\ProgramData\Miniconda3\Library\mingw-w64;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\zzh\.windows-build-tools\python27\;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\AppData\Local\GitHubDesktop\bin;C:\Users\zzh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zzh\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2020.3\bin;;C:\Program Files\JetBrains\WebStorm 2020.3\bin;;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Elastic\Beats\7.12.0
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\zzh\AppData\Local\Yarn\Cache\v6\npm-supports-color-5.5.0-e2e69a44ac8772f78a1ec0b35b689df6530efc8f-integrity\node_modules\supports-color\license' -> 'C:\Users\zzh\Documents\GitHub\r3f-swc-viewer\node_modules\@babel\highlight\node_modules\supports-color\license'
+
+npm manifest: 
+  {
+    "name": "r3f-swc-viewer",
+    "homepage": "http://zzhmark.github.io/r3f-swc-viewer",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.jsx",
+    "dependencies": {
+      "@react-three/drei": "7.25.4",
+      "@react-three/fiber": "7.0.21",
+      "@react-three/postprocessing": "2.0.5",
+      "immer": "9.0.7",
+      "immutable": "4.0.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-scripts": "4.0.3",
+      "react-spring": "9.3.2",
+      "three": "0.127.0",
+      "zustand": "3.6.5"
+    },
+    "devDependencies": {
+      "gh-pages": "^3.2.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

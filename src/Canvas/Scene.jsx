@@ -87,7 +87,7 @@ export default function Scene() {
 
   return (
     <>
-      <color attach="background" args={['#050409']} />
+      <color attach="background" args={['#020202']} />
       <fog attach="fog" args={['#070710', 0, 100000]} />
       {/* lighting */}
       <pointLight position={[0, 10000, 10000]} intensity={0.3} />

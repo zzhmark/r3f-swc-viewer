@@ -12,8 +12,9 @@ export default function App() {
   const { mutation } = useMutation()
   const { initAnimation } = useStore()
 
-  return (
+  return (<div style={{display: 'flex'}}>
     <Canvas
+	style={{width: '1280px', height: '720px', margin: 'auto'}}
       camera={{ far: 100000, near: 0.1, position: [100000, 100000, 100000] }}
       onCreated={() => {
         initAnimation(mutation)
@@ -23,5 +24,6 @@ export default function App() {
       {/* <OrbitControls /> */}
       <Scene />
     </Canvas>
+</div>
   )
 }
